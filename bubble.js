@@ -9,7 +9,7 @@ function bubbleSort(arr) {
                 swapped = true;
             }
         }
-        if (swapped = false) break;
+        if (!swapped) break;
     }
     return arr;
 }
